@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-width: 40px 40px;
+	border-color: #0009;
+	background-color: #FFB266;
+}
+.Gallery {
+	margin: 10px 50px;
+	text-align: center;
+}
+.Gallery img {
+	width: 25%;
+	padding: 20px;
+	transition: 1s;
+}
+.Gallery img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.Gallery > a {
+	text-decoration: none;
+}
+.Gallery > a > href {
+	display: none;
+}
